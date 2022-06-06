@@ -2,8 +2,8 @@
 ## Kalkulačka
 
 Verze 1.0  
-Adam Majer 
-6.června.2022
+Adam Majer  
+6. Června. 2022
 
 Obsah
 ================
@@ -23,10 +23,11 @@ Obsah
    * 3.1 [Pracovní tok](#31-pracovní-tok)
    * 3.2 [Hlavní moduly](#32-hlavní-moduly)
    * 3.3 [Všechny detaily: obrazovky, okna, tisky, chybové zprávy, logování](#33-Všechny-detaily:-obrazovky,-okna,-tisky,-chybové-zprávy,-logování)
-   * 3.3 [Software Interface](#34-software-interface)
-   * 3.3 [Software Interface](#35-software-interface)
-   * 3.3 [Software Interface](#36-software-interface)
-* 4 [System properties](#4-system-properties)
-   * 4.1 [Color Picking](#41-color-picking)
-   * 4.2 [Color Picker Cursor](#42-color-picker-cursor)
+   * 3.4 [Všechny možné toky programu a jejich projevy](#34-Všechny--možnétoky-programu-a-jejich-projevy)
+   * 3.5 [Všechny dohodnuté principy](#35-Všechny-dohodnuté-principy)
+* 4 [Otevřené otázky](#4-Otevřené-otázky)
+   * 4.1 [Části, na kterých se zatím nedosáhlo shody](#41-Části,-na-kterých-se-zatím-nedosáhlo-shody)
+   * 4.2 [Poznámky pro realizaci](#42-Poznámky-pro-realizaci)
    
+# 1. Úvod
+### 1.1 Účel
