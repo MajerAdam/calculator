@@ -31,17 +31,42 @@ Obsah
 
   
 # 1. Úvod
+
 ### 1.1 Účel
+Účelem tohoto dokumentu je všem co mají zájem o tuto velice jednoduchou kalkulačku, a chtějí se dozvědět jak bude vypadat, fungovat. Dozvíte se vše o mé kalkulačce, od detailů, až po nejzákladnější informace.
+
 ### 1.2 Konvence dokument
+Změny v dokumentu budou obestaveny + pluskami +
+
+Příkazy do konzole budou značeny „uvozovkami“
+
+Odpovědi konzole budou psány [v hranatých závorkách]
+
 ### 1.3 Pro koho je dokument určený
+Tento dokument je určen pro lidi, co se chtějí zjistit nebo mě kritizovat za to , jak bude moje kalkulačka, kterou tvořím, vypadat.
+
 ### 1.4 Další informace
+#### Kontakty
+Email: majer.ad.2019@skola.ssps.cz
+
+Telefon: +420 606 791 015
+
 ### 1.5 Odkazy na ostatní dokumenty
+Odkaz na SRS kalkulačky: https://github.com/MajerAdam/calculator/blob/main/SRS_for_Kalkulacka.docx 
+
 # 2. Scénář
+
 ### 2.1 Všechny reálné způsoby použití
+Kalkulačka se dá využít všemi běžnými způsoby jako jiná kalkulačka, ale narozdíl od ostaních kalkulaček bude umět o hodně míň věcí a věřím tomu, že i kdyby ji někdo opravdu chtěl využít. Tak to bude maximálně, proto, aby upravil kód mé kalkulačky v něco použitelnějšího.
+
 ### 2.2 Typy uživatelských rolí personas
+
 ### 2.3 Detaily motivace živé příklady
+
 ### 2.4 Vymezení rozsahu - co v sw-nebude
+
 ### 2.5 Na co se nebude klást důraz
+
 # 3. Celková hrubá architektura
 ### 3.1 Pracovní tok
 ### 3.2 Hlavní moduly
