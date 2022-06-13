@@ -16,18 +16,13 @@ Obsah
 * 2 [Scénář](#2-scénář)
    * 2.1 [Všechny reálné způsoby použití](#21-všechny-reálné-způsoby-použití)
    * 2.2 [Typy uživatelských rolí personas](#22-typy-uživatelských-rolí-personas)
-   * 2.3 [Detaily, motivace, "živé" příklady](#23-detaily-motivace-živé-příklady)
-   * 2.4 [Vymezení rozsahu - co v sw NEbude](#24-vymezení-rozsahu---co-v-sw-nebude)
-   * 2.5 [Na co se nebude klást důraz](#25-na-co-se-nebude-klást-důraz)
+   * 2.3 [Vymezení rozsahu - co v sw NEbude](#23-vymezení-rozsahu---co-v-sw-nebude)
+   * 2.4 [Na co se nebude klást důraz](#24-na-co-se-nebude-klást-důraz)
 * 3 [Celková hrubá architektura](#3-celková-hrubá-architektura)
    * 3.1 [Pracovní tok](#31-pracovní-tok)
-   * 3.2 [Hlavní moduly](#32-hlavní-moduly)
-   * 3.3 [Všechny detaily: obrazovky, okna, tisky, chybové zprávy, logování](#33-všechny-detaily-obrazovky-okna-tisky-chybové-zprávy-logování)
-   * 3.4 [Všechny možné toky programu a jejich projevy](#34-všechny-možné-toky-programu-a-jejich-projevy)
-   * 3.5 [Všechny dohodnuté principy](#35-všechny-dohodnuté-principy)
-* 4 [Otevřené otázky](#4-otevřené-otázky)
-   * 4.1 [Části, na kterých se zatím nedosáhlo shody](#41-části-na-kterých-se-zatím-nedosáhlo-shody)
-   * 4.2 [Poznámky pro realizaci](#42-poznámky-pro-realizaci)
+   * 3.2 [Všechny detaily: obrazovky, okna, tisky, chybové zprávy, logování](#32-všechny-detaily-obrazovky-okna-tisky-chybové-zprávy-logování)
+   * 3.3 [Všechny možné toky programu a jejich projevy](#33-všechny-možné-toky-programu-a-jejich-projevy)
+   * 3.4 [Všechny dohodnuté principy](#34-všechny-dohodnuté-principy)
 
   
 # 1. Úvod
@@ -60,12 +55,12 @@ Odkaz na SRS kalkulačky: https://github.com/MajerAdam/calculator/blob/main/SRS_
 Kalkulačka se dá využít všemi běžnými způsoby jako jiná kalkulačka, ale narozdíl od ostaních kalkulaček bude umět o hodně míň věcí a věřím tomu, že i kdyby ji někdo opravdu chtěl využít. Tak to bude maximálně, proto, aby upravil kód mé kalkulačky v něco použitelnějšího.
 
 ### 2.2 Typy uživatelských rolí personas
+Vzhledem k programu a jeho využití se uživatrlé nerozdělují, všichni uživatelé mají přístup ke stejným údajům.
 
-### 2.3 Detaily motivace živé příklady
+### 2.3 Vymezení rozsahu - co v sw-nebude
+Program nebude mýt různé módy, čí nějaké komlikované rovnice, podle kterých by kalkulačka mohla počítat.
 
-### 2.4 Vymezení rozsahu - co v sw-nebude
-V SW nebude 
-### 2.5 Na co se nebude klást důraz
+### 2.4 Na co se nebude klást důraz
 Ze začátku se nebude klást důray na responzivitu nebo comfort uživatelů. Bude se hlavně prioritizovat funkcionalita, aby se nejdřív zprovoznily část, které maají a musí fugovat.
 
 # 3. Celková hrubá architektura
@@ -73,23 +68,18 @@ Ze začátku se nebude klást důray na responzivitu nebo comfort uživatelů. B
 ### 3.1 Pracovní tok
 Začne se na kalkulačce pracovat poté co budou dodělány, všechny dokumenty, keré potřebuju napsat k uskutečnění práce. Tím pádem do týdne po dokončení SRS a FS by měla být kalkulačka dokončena.
 
-### 3.2 Hlavní moduly
-
-### 3.3 Všechny detaily obrazovky okna tisky chybové zprávy logování
+### 3.2 Všechny detaily obrazovky okna tisky chybové zprávy logování
 Login kalkulačka nebude mít. Po zpuštění se kalkulačka otevře conzoly, do které bude moc uživatel zaspisova příkazy.
 
 ![image](https://user-images.githubusercontent.com/97035550/173278438-38329c46-c675-4ecb-85d8-a6c82bb9207f.png)
 
-### 3.4 Všechny možné toky programu a jejich projevy
+### 3.3 Všechny možné toky programu a jejich projevy
 Program bude v jazice C# a všechen kód bude uložen zde na githabu, bezpodmínečně tu vždy bude nejnovější verze mé kalkulačky.
 
-### 3.5 Všechny dohodnuté principy
+### 3.4 Všechny dohodnuté principy
 Kalulačka musí být na githabu, vždy ve své nejnovější formě. Ať bude kdokoliv kdo by chtěl mě kontaktovat může a ať tak učiní co nejdříve aby kalkulačka dopadla podle všech přání.
 
-# 4. Otevřené otázky
-### 4.1 Části na kterých se zatím nedosáhlo shody
 
-### 4.2 Poznámky pro realizaci
 
 
 
