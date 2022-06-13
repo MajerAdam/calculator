@@ -64,17 +64,31 @@ Kalkulačka se dá využít všemi běžnými způsoby jako jiná kalkulačka, a
 ### 2.3 Detaily motivace živé příklady
 
 ### 2.4 Vymezení rozsahu - co v sw-nebude
-
+V SW nebude 
 ### 2.5 Na co se nebude klást důraz
+Ze začátku se nebude klást důray na responzivitu nebo comfort uživatelů. Bude se hlavně prioritizovat funkcionalita, aby se nejdřív zprovoznily část, které maají a musí fugovat.
 
 # 3. Celková hrubá architektura
+
 ### 3.1 Pracovní tok
+Začne se na kalkulačce pracovat poté co budou dodělány, všechny dokumenty, keré potřebuju napsat k uskutečnění práce. Tím pádem do týdne po dokončení SRS a FS by měla být kalkulačka dokončena.
+
 ### 3.2 Hlavní moduly
+
 ### 3.3 Všechny detaily obrazovky okna tisky chybové zprávy logování
+Login kalkulačka nebude mít. Po zpuštění se kalkulačka otevře conzoly, do které bude moc uživatel zaspisova příkazy.
+
+![image](https://user-images.githubusercontent.com/97035550/173278438-38329c46-c675-4ecb-85d8-a6c82bb9207f.png)
+
 ### 3.4 Všechny možné toky programu a jejich projevy
+Program bude v jazice C# a všechen kód bude uložen zde na githabu, bezpodmínečně tu vždy bude nejnovější verze mé kalkulačky.
+
 ### 3.5 Všechny dohodnuté principy
+Kalulačka musí být na githabu, vždy ve své nejnovější formě. Ať bude kdokoliv kdo by chtěl mě kontaktovat může a ať tak učiní co nejdříve aby kalkulačka dopadla podle všech přání.
+
 # 4. Otevřené otázky
 ### 4.1 Části na kterých se zatím nedosáhlo shody
+
 ### 4.2 Poznámky pro realizaci
 
 
